@@ -72,7 +72,7 @@ int main() {
 * 然后，链接（link）将生成的.obj文件合并成一个执行文件： [How the C++ Linker Works ]( https://youtu.be/H4s55GgAg0I)
   * 单独编译一个文件，不会发生链接
 
-<img src=".img/properties.png" style="zoom: 80%;" />
+<img src="img/properties.png" style="zoom: 80%;" />
 
 PS： error list仅供参考，一般信息不全，建议看output 窗口。
 
@@ -104,7 +104,7 @@ void Log(const char* message) {
 
 编译原理既视感
 
-![](.img/star.png)
+![](img/star.png)
 
 相比其他语言，在C++里，文件变得没有意义
 
@@ -238,7 +238,7 @@ const char* ptr 可以与字符串直接判等 如：if ( ptr=="hello" )
 
 * VS中解决方案下的文件夹是虚拟的，起一个过滤的作用，但在磁盘上不存在
 
-![](.img/show.png)
+![](img/show.png)
 
 * 通过点击显示所有文件，解决方案下的文件树会变成磁盘的实际样子。
   * 在此视图下新建文件夹就可以了
@@ -1397,13 +1397,13 @@ glfw.org官网下载32-bit的链接库
 
 
 
-![](.img/glfw.png)
+![](img/glfw.png)
 
-![](.img/folder.png)
+![](img/folder.png)
 
-![](.img/lib.png)
+![](img/lib.png)
 
-![](.img/pro.png)
+![](img/pro.png)
 
 
 
@@ -1484,7 +1484,7 @@ int main()
 
 
 
-![](.img/work.png)
+![](img/work.png)
 
 ```c++
 //Engine.h
@@ -2638,7 +2638,7 @@ std::async  C++11  #include<future>
 
 `static std::mutex s_MesherMutex;`
 
-![](.img/async.png)
+![](img/async.png)
 
 断点Debug模式下，调试->窗口->并行堆栈
 
